@@ -16,4 +16,7 @@ btnCalcular.addEventListener("click", function() {
     resultadoTela.innerText = `O resultado da soma de ${valor1} + ${valor2} é: ${resultado}`;
     resultadoTela.style.fontWeight = "bold";
     resultadoTela.style.fontSize = "20px";
+
+    soma1.value = "";
+    soma2.value = "";
 })
